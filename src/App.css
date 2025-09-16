@@ -1,0 +1,11 @@
+.gradient-border-box {
+    border: 1px solid transparent;
+    /* The solid border is a fallback and provides the border width */
+    border-image: linear-gradient(to top, #000000, #FFC43C);
+    /* The gradient itself */
+    border-image-slice: 1;
+    border-radius: 14px;
+}
+.hide-pagination .swiper-pagination-bullet {
+  display: none;
+}
